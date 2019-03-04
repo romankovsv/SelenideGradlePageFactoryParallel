@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="FirstSuite" tests="4" skipped="0" failures="0" errors="0" timestamp="2019-03-04T11:18:16" hostname="SRomankovNB" time="31.788">
+  <properties/>
+  <testcase name="check" classname="FirstSuite" time="29.15"/>
+  <testcase name="checkSome" classname="FirstSuite" time="30.938"/>
+  <testcase name="TestTwo" classname="FirstSuite" time="31.763"/>
+  <testcase name="testOne" classname="FirstSuite" time="31.788"/>
+  <system-out><![CDATA[[2019-03-04 01:18:17]Open Home Page
+[2019-03-04 01:18:17]Open Home Page
+[2019-03-04 01:18:17]Open Home Page
+[2019-03-04 01:18:17]Open Home Page
+[2019-03-04 01:18:38]Click new in menu
+[2019-03-04 01:18:38]Click new in menu
+[2019-03-04 01:18:38]Click new in menu
+[2019-03-04 01:18:38]Click new in menu
+]]></system-out>
+  <system-err><![CDATA[Mar 04, 2019 1:18:17 PM com.codeborne.selenide.drivercommands.LazyDriver getAndCheckWebDriver
+INFO: No webdriver is bound to current thread: 14 - let's create a new webdriver
+Mar 04, 2019 1:18:17 PM com.codeborne.selenide.drivercommands.LazyDriver getAndCheckWebDriver
+INFO: No webdriver is bound to current thread: 13 - let's create a new webdriver
+Mar 04, 2019 1:18:17 PM com.codeborne.selenide.drivercommands.LazyDriver getAndCheckWebDriver
+INFO: No webdriver is bound to current thread: 12 - let's create a new webdriver
+Mar 04, 2019 1:18:17 PM com.codeborne.selenide.drivercommands.LazyDriver getAndCheckWebDriver
+INFO: No webdriver is bound to current thread: 15 - let's create a new webdriver
+Starting ChromeDriver 2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1) on port 33953
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Starting ChromeDriver 2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1) on port 22243
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Starting ChromeDriver 2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1) on port 24666
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Starting ChromeDriver 2.46.628402 (536cd7adbad73a3783fdc2cab92ab2ba7ec361e1) on port 1779
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Mar 04, 2019 1:18:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Mar 04, 2019 1:18:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Mar 04, 2019 1:18:26 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Mar 04, 2019 1:18:27 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Mar 04, 2019 1:18:27 PM com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
+INFO: BrowserName=chrome Version=72.0.3626.119 Platform=XP
+Mar 04, 2019 1:18:27 PM com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
+INFO: BrowserName=chrome Version=72.0.3626.119 Platform=XP
+Mar 04, 2019 1:18:27 PM com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
+INFO: BrowserName=chrome Version=72.0.3626.119 Platform=XP
+Mar 04, 2019 1:18:27 PM com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
+INFO: Selenide v. 5.1.0
+Mar 04, 2019 1:18:27 PM com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
+INFO: Selenide v. 5.1.0
+Mar 04, 2019 1:18:27 PM com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
+INFO: Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+Mar 04, 2019 1:18:27 PM com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
+INFO: Selenide v. 5.1.0
+Mar 04, 2019 1:18:27 PM com.codeborne.selenide.drivercommands.CreateDriverCommand createDriver
+INFO: Create webdriver in current thread 12: ChromeDriver -> ChromeDriver: chrome on XP (60a08a8ca32ed4bf42c00478ea1c6d5e)
+Mar 04, 2019 1:18:27 PM com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
+INFO: Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+Mar 04, 2019 1:18:27 PM com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
+INFO: Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+Mar 04, 2019 1:18:27 PM com.codeborne.selenide.drivercommands.CreateDriverCommand createDriver
+INFO: Create webdriver in current thread 14: ChromeDriver -> ChromeDriver: chrome on XP (794be583dd12ff8022c00e62db496006)
+Mar 04, 2019 1:18:27 PM com.codeborne.selenide.drivercommands.CreateDriverCommand createDriver
+INFO: Create webdriver in current thread 13: ChromeDriver -> ChromeDriver: chrome on XP (93ddf1f39242e539430344f41d5f50e2)
+Mar 04, 2019 1:18:27 PM com.codeborne.selenide.webdriver.WebDriverFactory logBrowserVersion
+INFO: BrowserName=chrome Version=72.0.3626.119 Platform=XP
+Mar 04, 2019 1:18:27 PM com.codeborne.selenide.webdriver.WebDriverFactory createWebDriver
+INFO: Selenide v. 5.1.0
+Mar 04, 2019 1:18:27 PM com.codeborne.selenide.webdriver.WebDriverFactory logSeleniumInfo
+INFO: Selenium WebDriver v. 3.141.59 build time: 2018-11-14T08:17:03
+Mar 04, 2019 1:18:27 PM com.codeborne.selenide.drivercommands.CreateDriverCommand createDriver
+INFO: Create webdriver in current thread 15: ChromeDriver -> ChromeDriver: chrome on XP (99e7a2628cbf32e09a81c4c4b66843ec)
+]]></system-err>
+</testsuite>
